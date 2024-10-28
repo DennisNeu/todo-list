@@ -2,7 +2,6 @@ from task import Task
 import json
 import os
 
-
 class Todo_List:
 
     def __init__(self):
@@ -27,9 +26,6 @@ class Todo_List:
             print("No tasks.json file found. A new one will be created.")
             with open(filename, 'w') as file:
                 json.dump([], file)
-
-
-
 
     def show_tasks(self):
         if not self.tasks:
