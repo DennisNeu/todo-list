@@ -8,7 +8,8 @@ while True:
     print("2. create task")
     print("3. complete task")
     print("4. delete task")
-    print("5. exit")
+    print("5. save tasks")
+    print("6. exit")
 
     choice = input("Choose an option: ")
 
@@ -30,4 +31,7 @@ while True:
         except ValueError:
             print("Please enter a valid number")
     if choice == "5":
+        todo_list.save_tasks()
+    if choice == "6":
         exit()
+    
