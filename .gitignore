@@ -1,0 +1,15 @@
+# Ignore Python cache files and directories
+__pycache__/
+*.py[cod]
+
+# Ignore JSON data file (in your case)
+tasks.json
+
+# Ignore virtual environment folders (if using)
+env/
+venv/
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+tasks.json
