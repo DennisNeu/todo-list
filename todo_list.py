@@ -15,4 +15,7 @@ class Todo_List:
     def add_task(self, description):
         task = Task(description)
         self.tasks.append(task)
-        
+
+    def delete_task(self, index):
+        removed_task = self.tasks.pop(index - 1)
+        print(f"task: {removed_task} was removed")
