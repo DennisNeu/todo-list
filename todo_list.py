@@ -19,3 +19,8 @@ class Todo_List:
     def delete_task(self, index):
         removed_task = self.tasks.pop(index - 1)
         print(f"task: {removed_task} was removed")
+
+    def complete_task(self, index):
+        task = self.tasks[index - 1]
+        task.mark_completed()
+

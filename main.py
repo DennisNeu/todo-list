@@ -11,3 +11,7 @@ todo_list.show_tasks()
 todo_list.delete_task(1)
 
 todo_list.show_tasks()
+
+todo_list.complete_task(1)
+
+todo_list.show_tasks()
